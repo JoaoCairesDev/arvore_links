@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900 & display=trocar");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+.bk_ghost {
+  position: absolute;
+  z-index: -2;
+  background: url(./pexels-tobias-bjørkli-8230825.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.site img {
+  width: 30px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container_content {
+  background: #181818;
+  border: 2px solid #fff;
+  border-radius: 9px;
+  padding: 20px 30px;
+  width: 75%;
+}
+.titulo {
+  text-align: center;
+  margin: 13px 2px;
+}
+.titulo h1 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.titulo h3 {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 300;
+}
+.soc_redes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px 0px;
+}
+.site {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 9px 12px;
+  color: #f5f5f5;
+  background-color: #0f0f0f;
+
+  transition: 0.3s ease-out;
+}
+.site:hover {
+  background-color: #2f2f2f;
+}
+.site:hover .name_site {
+  font-weight: 700;
+}
+@media (min-width: 700px) {
+  .container_content {
+    width: 400px;
+  }
+}
+/*
+Foto de Tobias Bjørkli: https://www.pexels.com/pt-br/foto/frio-com-frio-geleira-glaciar-8230825/
+*/
+.dominio {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#dominio_logo {
+  position: absolute;
+  width: 150px;
+  bottom: 20px;
+}
